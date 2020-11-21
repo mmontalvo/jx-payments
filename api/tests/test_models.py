@@ -1,5 +1,6 @@
 from django.test import TestCase
-from ..models import Payment
+from django.apps import AppConfig
+from api.models import Payment, BankTransfer
 
 class PaymentTest(TestCase):
     """ Test module for Payment model """
